@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>database</key>
+			<string>ecofootprint</string>
+			<key>host</key>
+			<string>52.20.193.246</string>
+			<key>kcid</key>
+			<string>-2098087107699294580</string>
+			<key>name</key>
+			<string>ddl-demo</string>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPTCPIPConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>ddl</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>latin1</string>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGJSZYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJX
+			TlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAF
+			gAdUdHlwZVRyb3dzXxAdU2VsZWN0aW9uRGV0YWlsVHlwZU5TSW5k
+			ZXhTZXTSFwsYGVxOU1JhbmdlQ291bnQQAIAG0hscHR5aJGNsYXNz
+			bmFtZVgkY2xhc3Nlc1pOU0luZGV4U2V0oh8gWk5TSW5kZXhTZXRY
+			TlNPYmplY3TSGxwiI1xOU0RpY3Rpb25hcnmiIiRYTlNPYmplY3Rf
+			EA9OU0tleWVkQXJjaGl2ZXLRJyhUZGF0YYABAAgAEQAaACMALQAy
+			ADcAQABGAE0AVQBgAGcAagBsAG4AcQBzAHUAdwB8AIEAoQCmALMA
+			tQC3ALwAxwDQANsA3gDpAPIA9wEEAQcBEAEiASUBKgAAAAAAAAIB
+			AAAAAAAAACkAAAAAAAAAAAAAAAAAAAEs
+			</data>
+			<key>contentSortColIsAsc</key>
+			<true/>
+			<key>contentViewport</key>
+			<string>{{0, 0}, {693, 456}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>queries</key>
+			<string>select distinct(country) from nfa2018; 
+
+select avg(population) from nfa2018 where country = 'United States of America';
+
+select count(*) from nfa2018;</string>
+			<key>table</key>
+			<string>nfa2018</string>
+			<key>view</key>
+			<string>SP_VIEW_CUSTOMQUERY</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>202</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>select distinct(country) from nfa2018</string>
+		<string>select avg(population) from nfa2018 where country = 'United States of America'</string>
+		<string>select count(*) from nfa2018</string>
+		<string>select mean(population) from nfa2018 where country = 'United States of America'</string>
+		<string>select AVERAGE(population) from nfa2018 where country = 'United States of America'</string>
+		<string>select average(population) from nfa2018 where country = 'United States of America'</string>
+		<string>select * from nfa2018 where country = 'United States of America'</string>
+		<string>select * from nfa2018 where country = 'United State' limit 10</string>
+		<string>select * from nfa2018 limit 10</string>
+		<string>select outputs, date from blocks order by date desc limit 100</string>
+		<string>select outputs from blocks order by date desc limit 100</string>
+		<string>select outputs from blocks sort desc(date) limit 100</string>
+		<string>select sum(outputs) from blocks where date &gt;= NOW() - interval 10 day</string>
+		<string>select sum(outputs) from blocks where date &gt;= NOW() - interval 2 day</string>
+		<string>select sum(outputs) from blocks where date &gt;= NOW() - interval 1 day</string>
+		<string>select * from products where timestamp &gt; '2018-05-17' and city = 'Seattle'</string>
+		<string>select * from products where timestamp &gt; '2018-05-01' and timestamp &lt; '2018-05-02' and city = 'Seattle'</string>
+		<string>select * from products where timestamp &gt; '2018-05-01' and city = 'Seattle' limit 10</string>
+		<string>select * from products where timestamp &gt; '2018-05-01' limit 10</string>
+		<string>select * from products limit 10</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>5.7.18</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
